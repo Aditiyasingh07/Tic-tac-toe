@@ -50,6 +50,6 @@ Array.from(boxs).forEach(element =>{
 reset.addEventListener('click', ()=>{
     let boxs = document.querySelectorAll('.box')
     Array.from(boxs).forEach(element =>{
-        element.innerText = ""
+        element.innerText = " "
     })
 })

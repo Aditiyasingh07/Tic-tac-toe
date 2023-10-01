@@ -17,6 +17,7 @@ h1{
 .game-container{
     display: flex;
     border: 2px soild firebrick;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(58, 54, 54);
     height: 500px;
@@ -74,4 +75,22 @@ h2{
 }
 .bd{
     border-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+
+    .game-container{
+        height: 100%;
+    }
+    .game-info{
+        margin:140px 0 ;
+    }
+    .game-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

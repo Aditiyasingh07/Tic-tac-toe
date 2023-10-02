@@ -8,6 +8,7 @@ nav{
     align-items: center;
     background: linear-gradient(to right, rgb(207, 101, 101), rgb(184, 184, 64));
     height: 80px;
+    justify-content: space-around;
     font-size: 2rem;
 }
 h1{
@@ -98,5 +99,13 @@ h2{
         align-items: center;
         height: 100px;
         width: 90px;
+    }
+    nav{
+        display: flex;
+        text-align: center;
+        background: linear-gradient(to right, rgb(207, 101, 101), rgb(184, 184, 64));
+        height: 200px;
+        flex-wrap: wrap;
+        font-size: 2rem;
     }
 }

@@ -47,8 +47,9 @@ Array.from(boxs).forEach(element =>{
     })
 })
 
-reset.addEventListener('click', ()=>{
-    let boxs = document.querySelectorAll('.box')
+let set = document.getElementById("set")
+set.addEventListener('click',()=>{
+    let boxs = document.getElementsByClassName('box')
     Array.from(boxs).forEach(element =>{
         element.innerText = " "
     })
